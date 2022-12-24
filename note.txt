@@ -1,3 +1,9 @@
 -- install customize-cra (tùy chỉnh cấu hình webpack) : npm i customize-cra react-app-rewired -D
 
 -- cài đặt babel plugin module resolver (để import các file đường dẫn gọn hơn): npm install --save-dev babel-plugin-module-resolver
+
+-- cai scss: npm i -D sass
+
+-- cai reset css: npm install --save normalize.css
+
+-- cai dat react router dom : npm install react-router-dom
