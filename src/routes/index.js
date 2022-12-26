@@ -7,6 +7,8 @@ import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
+import HomeAdmin from '~/pages/HomeAdmin';
+import AdminLayout from '~/components/Layouts/AdminLayout';
 
 // public routes
 const publicRoutes = [
@@ -17,6 +19,8 @@ const publicRoutes = [
     {path: '/search', component: Search, layout: null},
 ];
 
-const privateRoutes = [];
+const privateRoutes = [
+    {path: '/admin', component: HomeAdmin, layout: AdminLayout},
+];
 
 export { publicRoutes, privateRoutes };
